@@ -1,0 +1,50 @@
+.main-content{
+    padding-top: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+.top-text{
+    color: grey;
+}
+.maincontainer{
+    margin-top: 3rem;
+}
+.textfield{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.textfieldbar{
+    width: 40rem;
+    height: 3.5rem;
+    border-radius: 3rem;
+    padding-left: 1rem;
+}
+input[type=text]:focus{
+    outline-color: #c27ba0 !important;
+    
+    border: 0.5rem  #c27ba0;
+    border-color: #c27ba0 !important;
+}
+::-webkit-input-placeholder { 
+    padding-left: 0.5rem;
+}
+.but{
+    background-color: #c27ba0;
+    width: 5rem;
+    border-radius: 3rem;
+    height: 3.5rem;
+}
+.but:hover{
+    background-color: #c27ba0;
+}
+.mainfield{
+    margin-top: 3rem;
+}
